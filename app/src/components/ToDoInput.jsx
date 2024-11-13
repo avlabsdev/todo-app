@@ -16,8 +16,12 @@ export default function ToDoInput(props) {
       />
       <button
         onClick={() => {
-          handleAddTodos(todoValue);
-          setTodoValue("");
+          if (!todoValue) {
+            return;
+          } else {
+            handleAddTodos(todoValue);
+            setTodoValue("");
+          }
         }}
         className="bg-black text-white py-4 px-8 rounded-xl"
       >
