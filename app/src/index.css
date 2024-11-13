@@ -4,4 +4,5 @@
 
 body {
   font-family: "Figtree", sans-serif;
+  @apply container mx-auto max-w-2xl;
 }
