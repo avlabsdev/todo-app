@@ -64,7 +64,7 @@ export default function App() {
   return (
     <>
       <h1 className="container mx-auto p-4 text-xl font-bold">
-        To-Do App by AV Labs
+        To-Do App
       </h1>
       <ToDoInput
         todoValue={todoValue}
